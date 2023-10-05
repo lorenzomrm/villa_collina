@@ -1,0 +1,19 @@
+#main-body {
+    font-family: "Gill Sans Extrabold", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+#website-header {
+    background-color: rgb(201, 239, 199); 
+    color: rgb(17, 24, 39);
+}   
+
+.button.xl, a.button.xl {
+    padding: 0.75rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.button:hover, a.button:hover {
+    opacity: .9;
+    --tw-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -1px rgba(0,0,0,.06);
+}

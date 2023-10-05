@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Villa Collina</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/body.css">
     <link rel="icon" 
       type="image/png" 
       href="https://img.icons8.com/?size=512&id=wsyYPQmYnIwr&format=png">
 </head>
 
 <body>
+<div id="main-body" class="min-h-full w-full flex flex-col smooth-scroll hyphen">
+    <header id="website-header" class="!z-[2000]">
+        <div class="grid items-center lg:gap-6 xl:gap-10 mx-auto pt-6 pb-6 px-6 lg:px-12" style="grid-template-columns:auto auto auto">
+            <div class="col-span-2 lg:col-span-1 truncate">
+                <img class="lg:block transition-all object-contain" src="https://cdn.durable.co/blocks/22NR8zikXLRnh77lhfekFj2CjE5pw8yRpvCCV6Zzpyhn3RSZEVzvRNsmzkVDwwMO.png" alt="Villa Collina" style="height:130px">
+            </div>
+            <div><a href="https://www.instagram.com/villa.collina/"><img id="insta" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" height="50px"></a></div>
+        </div>
+        <div class="lg:flex item-center justify-end gap-10 lg:col-span-2">
+            <div class="lg:flex items-center flex-shrink-0">
+                <a class="button xl !text-2xl !py-1.5" target="_blank" style="border-width: 2px; border-style: solid; box-shadow: none; background-color: transparent; color: rgb(17, 24, 39); border-radius: 8px; border-color: rgb(17, 24, 39);" href="https://api.whatsapp.com/send?phone=48996768801">Agendar</a>
+            </div>
+        </div>
+    </header>
     <div class="content">
         <img class = "fundo" src="img/back.jpg" height="500px">
-        
-        <ul>
-            <li><a href="">Início</a></li>
+
+        <ul class="menu menu-hidden">
+            <li><a class="selected" href="index.html">Início</a></li>
             <li><a href="">Contato</a></li>
         </ul>
 
@@ -23,9 +39,10 @@
         <h4><a href="info.html">Saiba mais</a></h4>
         
         <img src="" height="500px">
-        <a href="https://www.instagram.com/villa.collina/"><img id="insta" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" height="50px"></a>
+        
         <button onclick="topFunction()" id="Btn" title="Subir">Ir para o topo</button>
 
     </div>
+</div>
     <script src="js/botao.js"></script>
 </html>
