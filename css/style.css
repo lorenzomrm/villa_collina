@@ -15,13 +15,14 @@
 footer {
     border: solid black 1px;
     text-align: center;
-    margin: 5px;
     height: 90px;
+    margin-top: 20px;
+    margin-bottom: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(41, 41, 112);
-    color: white;
+    background-color: rgb(201, 239, 199); 
+    color: rgb(17, 24, 39);
 }
 
 article {
@@ -112,5 +113,9 @@ a:hover {
 .menu li:hover ul {
     display: block;
     list-style: none;
+}
+
+p {
+    font-size: larger;
 }
 

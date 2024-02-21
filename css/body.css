@@ -6,6 +6,9 @@
 #website-header {
     background-color: rgb(201, 239, 199); 
     color: rgb(17, 24, 39);
+    border: solid black 1px;    
+    margin-bottom: 1px;
+    margin-top: 1px;
 }   
 
 .button.xl, a.button.xl {
